@@ -1,0 +1,182 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1619 ]
+[d frameptr 6 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"16 C:\Users\Marci\MPLABXProjects\LCD_PIC16F1619.X\HD44780.c
+[v _lcd_write lcd_write `(v  1 e 1 0 ]
+"34
+[v _lcd_clear lcd_clear `(v  1 e 1 0 ]
+"41
+[v _lcd_puts lcd_puts `(v  1 e 1 0 ]
+"58
+[v _lcd_goto lcd_goto `(v  1 e 1 0 ]
+"72
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"55 C:\Users\Marci\MPLABXProjects\LCD_PIC16F1619.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"84
+[v _odavissza odavissza `(v  1 e 1 0 ]
+"50 C:\Users\Marci\MPLABXProjects\LCD_PIC16F1619.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"56
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\Marci\MPLABXProjects\LCD_PIC16F1619.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"1615 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1619.h
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1665
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1704
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S79 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"2077
+[s S86 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S93 . 1 `S79 1 . 1 0 `S86 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES93  1 e 1 @149 ]
+"2199
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+"2257
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"2632
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"2682
+[v _LATB LATB `VEuc  1 e 1 @269 ]
+[s S141 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"2696
+[u S147 . 1 `S141 1 . 1 0 ]
+[v _LATBbits LATBbits `VES147  1 e 1 @269 ]
+"2721
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+[s S156 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"2738
+[u S165 . 1 `S156 1 . 1 0 ]
+[v _LATCbits LATCbits `VES165  1 e 1 @270 ]
+"3057
+[v _BORCON BORCON `VEuc  1 e 1 @278 ]
+"3332
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"3379
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"3418
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"4526
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"4584
+[v _WPUB WPUB `VEuc  1 e 1 @525 ]
+"4623
+[v _WPUC WPUC `VEuc  1 e 1 @526 ]
+"6091
+[v _ODCONA ODCONA `VEuc  1 e 1 @652 ]
+"6136
+[v _ODCONB ODCONB `VEuc  1 e 1 @653 ]
+"6175
+[v _ODCONC ODCONC `VEuc  1 e 1 @654 ]
+"6791
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @780 ]
+"6836
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @781 ]
+"6875
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @782 ]
+"6937
+[v _INLVLA INLVLA `VEuc  1 e 1 @908 ]
+"6987
+[v _INLVLB INLVLB `VEuc  1 e 1 @909 ]
+"7026
+[v _INLVLC INLVLC `VEuc  1 e 1 @910 ]
+"48 C:\Users\Marci\MPLABXProjects\LCD_PIC16F1619.X\main.c
+[v _i i `ui  1 e 2 0 ]
+"55
+[v _main main `(v  1 e 1 0 ]
+{
+"82
+} 0
+"84
+[v _odavissza odavissza `(v  1 e 1 0 ]
+{
+[v odavissza@lepes lepes `uc  1 a 1 wreg ]
+[v odavissza@lepes lepes `uc  1 a 1 wreg ]
+[v odavissza@szoveg szoveg `*.25uc  1 p 2 4 ]
+"86
+[v odavissza@lepes lepes `uc  1 a 1 8 ]
+"101
+} 0
+"41 C:\Users\Marci\MPLABXProjects\LCD_PIC16F1619.X\HD44780.c
+[v _lcd_puts lcd_puts `(v  1 e 1 0 ]
+{
+[v lcd_puts@s s `*.25DCuc  1 p 2 1 ]
+"48
+} 0
+"58
+[v _lcd_goto lcd_goto `(v  1 e 1 0 ]
+{
+[v lcd_goto@pos pos `uc  1 a 1 wreg ]
+[v lcd_goto@pos pos `uc  1 a 1 wreg ]
+[v lcd_goto@line line `uc  1 p 1 1 ]
+"60
+[v lcd_goto@pos pos `uc  1 a 1 2 ]
+"69
+} 0
+"34
+[v _lcd_clear lcd_clear `(v  1 e 1 0 ]
+{
+"39
+} 0
+"72
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"106
+} 0
+"16
+[v _lcd_write lcd_write `(v  1 e 1 0 ]
+{
+[v lcd_write@c c `uc  1 a 1 wreg ]
+[v lcd_write@c c `uc  1 a 1 wreg ]
+"18
+[v lcd_write@c c `uc  1 a 1 0 ]
+"30
+} 0
+"50 C:\Users\Marci\MPLABXProjects\LCD_PIC16F1619.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"54
+} 0
+"55 C:\Users\Marci\MPLABXProjects\LCD_PIC16F1619.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"113
+} 0
+"56 C:\Users\Marci\MPLABXProjects\LCD_PIC16F1619.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"64
+} 0
